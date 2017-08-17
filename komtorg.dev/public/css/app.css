@@ -1,0 +1,20 @@
+.app-grid-net--3c-3r {
+	display: grid;
+    grid-template-columns: 10px auto 10px;
+	grid-template-rows: auto auto auto;
+	grid-column-gap: 0px;
+    grid-row-gap: 0px;
+	align-items: strech;
+	justify-items: strech;
+}
+
+
+.app-grid-zone--2-2   {
+    grid-column: 2;
+	grid-row: 2;
+	background: white;
+	justify-self: strech;
+	align-self: strech;
+}
+
+
